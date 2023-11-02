@@ -1,2 +1,2 @@
 # didYouKnow
-Random true facts generator. 
+<h1>Random true facts generator.</h1>
