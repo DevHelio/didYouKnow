@@ -19,3 +19,9 @@ const fact = async () => {
         }
     }
 }
+
+
+//add event listener to the button in the html file. the button has id of "btn" and it should call for the function fact
+
+
+document.getElementById("btn").addEventListener("click", fact);
