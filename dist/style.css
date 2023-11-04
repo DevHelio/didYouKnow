@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: auto;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: black;
+  margin-top: 15%;
+}
+body button {
+  width: 135px;
+  height: 55px;
+  margin: 5;
+  color: white;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  background-color: black;
+  font-weight: 900;
+  font-size: larger;
+  text-align: center;
+  align-items: center;
+}
+body button:hover {
+  background-color: white;
+  color: black;
+}
+body button:active {
+  border-color: black;
+}
+body gameCard {
+  display: grid;
+  place-items: center;
+}

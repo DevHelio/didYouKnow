@@ -1,14 +1,24 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DidYouKnow?</title>
-</head>
-<body>
-    <h1>Did you know...</h1>
-    <button type="button">What?</button>
-    <div id="factCard">
+    <link rel="stylesheet" href="./dist/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <gameCard>
+      <h1>Did you know...</h1>
+      <button type="button" onclick="fact()">What?</button>
+      <div id="factCard">
         <h2 id="fact">...</h2>
-    </div>
-</body>
+      </div>
+    </gameCard>
+  </body>
+  <script src="script.js"></script>
 </html>
